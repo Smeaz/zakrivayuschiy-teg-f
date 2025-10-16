@@ -15,7 +15,7 @@
   }
 }
 
-@keyframes fade-out {
+@keyframes sparks-fade-out {
   to {
     opacity: 1;
   }
