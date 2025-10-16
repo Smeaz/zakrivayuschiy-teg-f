@@ -70,6 +70,7 @@
   font-variation-settings: "wght" var(--subtitlefontweight), "opsz" 0;
   padding-inline: 10px;
   padding-block: 4px;
+  border-block-end: 2px solid var(--accentcolor);
 }
 
 .card {
@@ -77,7 +78,7 @@
   background-color: var(--backgroundcolor);
   margin-inline: auto;
   border: 2px solid var(--accentcolor);
-  margin-block-end: 52px;
+  margin-block-end: 48px;
 }
 
 .car-image {
@@ -90,6 +91,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  border-block-start: 2px solid var(--accentcolor);
 }
 
 .button {
@@ -227,7 +229,7 @@
 
 .insert-floppy[open]::backdrop {
   background-color: #000;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 body:has(.insert-floppy[open]) {
